@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[斯人]]></title>
+  <link href="http://leecade.github.com/atom.xml" rel="self"/>
+  <link href="http://leecade.github.com/"/>
+  <updated>2012-03-03T06:25:08+08:00</updated>
+  <id>http://leecade.github.com/</id>
+  <author>
+    <name><![CDATA[leecade]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[test2]]></title>
+    <link href="http://leecade.github.com/blog/2011/11/27/test2/"/>
+    <updated>2011-11-27T08:45:00+08:00</updated>
+    <id>http://leecade.github.com/blog/2011/11/27/test2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[post title]]></title>
+    <link href="http://leecade.github.com/blog/2011/11/27/post-title/"/>
+    <updated>2011-11-27T05:19:00+08:00</updated>
+    <id>http://leecade.github.com/blog/2011/11/27/post-title</id>
+    <content type="html"><![CDATA[<p>test&#8230;</p>
+]]></content>
+  </entry>
+  
+</feed>
