@@ -9,8 +9,7 @@
   <meta name="author" content="leecade">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="git工作笔记 增加index1页面，强制设置首页提醒 配置git在命令行中着色 git config --global color.ui true 获取reflog git reflog 使用ksdiff按git版本提取参照 git difftool 71e722a 333867c 比对差异 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -55,8 +54,10 @@
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="leecade@163.com" rel="subscribe-email" title="subscribe via email">Email</a></li>
   
 </ul>
   
@@ -83,7 +84,80 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/11/27/test2/">Test2</a></h1>
+      <h1 class="entry-title"><a href="/blog/test-markdown/">Test Markdown</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-03T07:36:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>git工作笔记</h1>
+
+<blockquote><p>增加index1页面，强制设置首页提醒</p></blockquote>
+
+<h3>配置git在命令行中着色</h3>
+
+<pre><code>git config --global color.ui true
+</code></pre>
+
+<h3>获取reflog</h3>
+
+<pre><code>git reflog
+</code></pre>
+
+<h3>使用ksdiff按git版本提取参照</h3>
+
+<pre><code>git difftool 71e722a 333867c 
+</code></pre>
+
+<h3>比对差异</h3>
+
+<pre><code>ksdiff index.html index1.html
+</code></pre>
+
+<h3>添加所有文件至git跟踪</h3>
+
+<pre><code>git add .
+</code></pre>
+
+<h3>快捷提交</h3>
+
+<pre><code>git commit -a -m "版本说明"
+</code></pre>
+
+<h3>导出纯净版本</h3>
+
+<pre><code>git archive master | tar -x -C ../output
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/test2/">Test2</a></h1>
     
     
       <p class="meta">
@@ -119,7 +193,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/11/27/post-title/">Post Title</a></h1>
+      <h1 class="entry-title"><a href="/blog/post-title/">Post Title</a></h1>
     
     
       <p class="meta">
@@ -163,11 +237,15 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2011/11/27/test2/">test2</a>
+        <a href="/blog/test-markdown/">test markdown</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2011/11/27/post-title/">post title</a>
+        <a href="/blog/test2/">test2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/post-title/">post title</a>
       </li>
     
   </ul>

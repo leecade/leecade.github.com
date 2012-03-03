@@ -4,20 +4,20 @@
   <title><![CDATA[Category: test | 斯人]]></title>
   <link href="http://leecade.github.com/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://leecade.github.com/"/>
-  <updated>2012-03-03T06:25:08+08:00</updated>
+  <updated>2012-03-03T15:01:58+08:00</updated>
   <id>http://leecade.github.com/</id>
   <author>
     <name><![CDATA[leecade]]></name>
-    
+    <email><![CDATA[leecade@163.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[test2]]></title>
-    <link href="http://leecade.github.com/blog/2011/11/27/test2/"/>
+    <link href="http://leecade.github.com/blog/test2/"/>
     <updated>2011-11-27T08:45:00+08:00</updated>
-    <id>http://leecade.github.com/blog/2011/11/27/test2</id>
+    <id>http://leecade.github.com/blog/test2</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

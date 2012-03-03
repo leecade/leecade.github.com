@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>post title - 斯人</title>
+  <title>test markdown - 斯人</title>
   <meta name="author" content="leecade">
 
   
-  <meta name="description" content="test&#8230;
-">
+  <meta name="description" content="git工作笔记 增加index1页面，强制设置首页提醒 配置git在命令行中着色 git config --global color.ui true 获取reflog git reflog 使用ksdiff按git版本提取参照 git difftool 71e722a 333867c 比对差异 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://leecade.github.com/blog/2011/11/27/post-title">
+  <link rel="canonical" href="http://leecade.github.com/blog/test-markdown">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -55,8 +54,10 @@
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="leecade@163.com" rel="subscribe-email" title="subscribe via email">Email</a></li>
   
 </ul>
   
@@ -80,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">Post Title</h1>
+      <h1 class="entry-title">Test Markdown</h1>
     
     
       <p class="meta">
@@ -96,14 +97,51 @@
   
 
 
-<time datetime="2011-11-27T05:19:00+08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2011</time>
+<time datetime="2012-03-03T07:36:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>test&#8230;</p>
+<div class="entry-content"><h1>git工作笔记</h1>
+
+<blockquote><p>增加index1页面，强制设置首页提醒</p></blockquote>
+
+<h3>配置git在命令行中着色</h3>
+
+<pre><code>git config --global color.ui true
+</code></pre>
+
+<h3>获取reflog</h3>
+
+<pre><code>git reflog
+</code></pre>
+
+<h3>使用ksdiff按git版本提取参照</h3>
+
+<pre><code>git difftool 71e722a 333867c 
+</code></pre>
+
+<h3>比对差异</h3>
+
+<pre><code>ksdiff index.html index1.html
+</code></pre>
+
+<h3>添加所有文件至git跟踪</h3>
+
+<pre><code>git add .
+</code></pre>
+
+<h3>快捷提交</h3>
+
+<pre><code>git commit -a -m "版本说明"
+</code></pre>
+
+<h3>导出纯净版本</h3>
+
+<pre><code>git archive master | tar -x -C ../output
+</code></pre>
 </div>
 
 
@@ -126,7 +164,7 @@
   
 
 
-<time datetime="2011-11-27T05:19:00+08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2011</time>
+<time datetime="2012-03-03T07:36:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time>
       
 
 
@@ -134,7 +172,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://leecade.github.com/blog/2011/11/27/post-title/" data-via="" data-counturl="http://leecade.github.com/blog/2011/11/27/post-title/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://leecade.github.com/blog/test-markdown/" data-via="" data-counturl="http://leecade.github.com/blog/test-markdown/" >Tweet</a>
   
   
   
@@ -143,8 +181,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/test2/" title="Previous Post: test2">&laquo; test2</a>
       
-        <a class="basic-alignment right" href="/blog/2011/11/27/test2/" title="Next Post: test2">test2 &raquo;</a>
       
     </p>
   </footer>
@@ -165,11 +203,15 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2011/11/27/test2/">test2</a>
+        <a href="/blog/test-markdown/">test markdown</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2011/11/27/post-title/">post title</a>
+        <a href="/blog/test2/">test2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/post-title/">post title</a>
       </li>
     
   </ul>
@@ -244,8 +286,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://leecade.github.com/blog/2011/11/27/post-title/';
-        var disqus_url = 'http://leecade.github.com/blog/2011/11/27/post-title/';
+        var disqus_identifier = 'http://leecade.github.com/blog/test-markdown/';
+        var disqus_url = 'http://leecade.github.com/blog/test-markdown/';
         var disqus_script = 'embed.js';
       
     (function () {

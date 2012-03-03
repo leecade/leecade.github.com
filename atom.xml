@@ -4,29 +4,75 @@
   <title><![CDATA[斯人]]></title>
   <link href="http://leecade.github.com/atom.xml" rel="self"/>
   <link href="http://leecade.github.com/"/>
-  <updated>2012-03-03T06:25:08+08:00</updated>
+  <updated>2012-03-03T15:01:58+08:00</updated>
   <id>http://leecade.github.com/</id>
   <author>
     <name><![CDATA[leecade]]></name>
-    
+    <email><![CDATA[leecade@163.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[test markdown]]></title>
+    <link href="http://leecade.github.com/blog/test-markdown/"/>
+    <updated>2012-03-03T07:36:00+08:00</updated>
+    <id>http://leecade.github.com/blog/test-markdown</id>
+    <content type="html"><![CDATA[<h1>git工作笔记</h1>
+
+<blockquote><p>增加index1页面，强制设置首页提醒</p></blockquote>
+
+<h3>配置git在命令行中着色</h3>
+
+<pre><code>git config --global color.ui true
+</code></pre>
+
+<h3>获取reflog</h3>
+
+<pre><code>git reflog
+</code></pre>
+
+<h3>使用ksdiff按git版本提取参照</h3>
+
+<pre><code>git difftool 71e722a 333867c 
+</code></pre>
+
+<h3>比对差异</h3>
+
+<pre><code>ksdiff index.html index1.html
+</code></pre>
+
+<h3>添加所有文件至git跟踪</h3>
+
+<pre><code>git add .
+</code></pre>
+
+<h3>快捷提交</h3>
+
+<pre><code>git commit -a -m "版本说明"
+</code></pre>
+
+<h3>导出纯净版本</h3>
+
+<pre><code>git archive master | tar -x -C ../output
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[test2]]></title>
-    <link href="http://leecade.github.com/blog/2011/11/27/test2/"/>
+    <link href="http://leecade.github.com/blog/test2/"/>
     <updated>2011-11-27T08:45:00+08:00</updated>
-    <id>http://leecade.github.com/blog/2011/11/27/test2</id>
+    <id>http://leecade.github.com/blog/test2</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[post title]]></title>
-    <link href="http://leecade.github.com/blog/2011/11/27/post-title/"/>
+    <link href="http://leecade.github.com/blog/post-title/"/>
     <updated>2011-11-27T05:19:00+08:00</updated>
-    <id>http://leecade.github.com/blog/2011/11/27/post-title</id>
+    <id>http://leecade.github.com/blog/post-title</id>
     <content type="html"><![CDATA[<p>test&#8230;</p>
 ]]></content>
   </entry>
